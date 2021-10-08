@@ -145,13 +145,13 @@ h3 .super-link,
 }
 
 h1 .super-link {
-    background-image: url(./assets/img/super-link/squiggle-h1h2.png);
+    background-image: url(/assets/img/super-link/squiggle-h1h2.png);
     background-size: auto 12px;
     padding-bottom: 0;
 }
 
 h2 .super-link {
-    background-image: url(./assets/img/super-link/squiggle-h1h2.png);
+    background-image: url(/assets/img/super-link/squiggle-h1h2.png);
     background-size: auto 12px;
     padding-bottom: 2px;
   }
@@ -159,7 +159,7 @@ h2 .super-link {
   
   
   h4 .super-link {
-    background-image: url(./assets/img/super-link/squiggle-h4h5.png);
+    background-image: url(/assets/img/super-link/squiggle-h4h5.png);
     background-size: auto 6px;
     padding-bottom: 5px;
   }
