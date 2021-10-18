@@ -71,7 +71,7 @@ svg:not(:root) {
 
 .cb-img-container img {
 	height: auto;
-	opacity: .75;
+	opacity: 0.75;
 	position: relative;
 	width: 100%;
 	z-index: 1;
@@ -140,20 +140,23 @@ svg:not(:root) {
 	
 	.cb-img-container img {
 		bottom: 0;
-		height: 100vh;
-		left: 0;
-		-o-object-fit: cover;
-		object-fit: cover;
-		position: absolute;
-		right: 0;
-		top: 0;
-		z-index: -1;
+      height: 100vh;
+      left: 0;
+      -o-object-fit: cover;
+      object-fit: cover;
+      position: fixed;
+      right: 0;
+      top: 0;
+      -webkit-transform: perspective(0);
+      transform: perspective(0);
+      width: 100vw;
+      z-index: -1;
 	}
 	
 	.business svg,
 	.branding svg,
 	.digital svg {
-		position: absolute;
+		position: fixed;
 		width: 50vw;
 	}
 	

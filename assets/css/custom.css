@@ -56,40 +56,7 @@
     z-index: 2;
   }
 
-.cb-img-container {
-    background: var(--color-secondary);
-    position: relative;
-}
 
-.cb-img-container img {
-    height: auto;
-    opacity: .75;
-    position: relative;
-    width: 100%;
-    z-index: 1;
-}
-
-.business svg,
-.branding svg,
-.digital svg {
-    bottom: 0;
-    left: 0;
-    position: absolute;
-    right: 0;
-    width: 55vw;
-    z-index: 2;
-}
-
-svg:not(:root) {
-    overflow: hidden;
-}
-
-.h-outline text {
-    font-family: var(--heading-font);
-    font-weight: 700;
-    stroke: var(--color-primary);
-    text-transform: uppercase;
-}
 /*FIN-Efectos-imagenes*/
 
 /*---SUPER-LINK---*/
