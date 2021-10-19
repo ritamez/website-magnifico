@@ -14,9 +14,7 @@
     z-index: 3;
 }
 
-svg:not(:root) {
-    overflow: hidden;
-  }
+
 
 .business .container-fluid .contenido-business .content-inner,
 .branding .container-fluid .contenido-branding .content-inner,
@@ -99,7 +97,7 @@ svg:not(:root) {
 .business .container-fluid .contenido-business .content-inner:after,
 .branding .container-fluid .contenido-branding .content-inner:after,
 .digital .container-fluid .contenido-digital .content-inner:after {
-	background: #fbfbfc;
+	background: #fcfbfb;
 	content: "";
 	height: 100%;
 	position: absolute;
@@ -108,6 +106,30 @@ svg:not(:root) {
 	width: 25vw;
 	z-index: -1;
 }
+
+.fade-in {
+	-webkit-animation: fade-in 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: fade-in 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+ @-webkit-keyframes fade-in {
+	0% {
+	  opacity: 0;
+	}
+	100% {
+	  opacity: 1;
+	}
+  }
+  @keyframes fade-in {
+	0% {
+	  opacity: 0;
+	}
+	100% {
+	  opacity: 1;
+	}
+  }
+  
 
 @media (min-width:768px) {
 	.col-md-6 {
