@@ -63,7 +63,7 @@
 }
 
 .cb-img-container {
-	background: #3634b1;
+	background: #030314;
 	position: relative;
 }
 
@@ -79,7 +79,7 @@
 .h-outline text {
 	font-family: Glacial Indifference, sans-serif;
 	font-weight: 700;
-	stroke: #ffe0c6;
+	stroke: #EB9B00;
 	text-transform: uppercase;
 }
 
@@ -88,7 +88,7 @@
 .container-fluid .digital {
 	padding-left: 8vw;
 	padding-right: 8vw;
-	background-color: #fbfbfc;
+	background-color: #ffffff;
 	position: relative;
 	z-index: 2;
 }
@@ -97,7 +97,7 @@
 .business .container-fluid .contenido-business .content-inner:after,
 .branding .container-fluid .contenido-branding .content-inner:after,
 .digital .container-fluid .contenido-digital .content-inner:after {
-	background: #fcfbfb;
+	background: #ffffff;
 	content: "";
 	height: 100%;
 	position: absolute;
@@ -191,7 +191,7 @@
 	.business .container-fluid .contenido-business .content-inner,
 	.branding .container-fluid .contenido-branding .content-inner,
 	.digital .container-fluid .contenido-digital .content-inner {
-		background: #fcfbfb;
+		background: #ffffff;
 		height: 100vh;
 		margin-left: 70px;
 		position: relative;

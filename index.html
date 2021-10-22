@@ -26,7 +26,7 @@
 
 	</head>
 
-	<body data-mobile-nav-trigger-alignment="right" data-mobile-nav-align="left" data-mobile-nav-style="minimal" data-mobile-nav-shceme="gray" data-mobile-header-scheme="gray" data-mobile-nav-breakpoint="1199">
+	<body data-mobile-nav-trigger-alignment="left" data-mobile-nav-align="left" data-mobile-nav-style="minimal" data-mobile-nav-shceme="gray" data-mobile-header-scheme="primary" data-mobile-nav-breakpoint="1199">
 
 		<div id="wrap">
 
@@ -38,19 +38,15 @@
 							<div class="mainbar">
 								<div class="row mainbar-row align-items-lg-stretch px-4">
 
-									<div class="col">
+									<div class="col pr-5">
 										<div class="navbar-header">
 											<a class="navbar-brand" href="index.html" rel="home">
 												<span class="navbar-brand-inner">
-													<img class="logo-dark" src="./assets/img/logo/logo-1.svg" alt="Ave HTML Template">
-													<img class="logo-light" src="./assets/img/logo/logo-light.svg" alt="Ave HTML Template">
-													<img class="logo-sticky" src="./assets/img/logo/logo-1.svg" alt="Ave HTML Template">
-													<img class="mobile-logo-default" src="./assets/img/logo/logo-1.svg" alt="Ave HTML Template">
+													<img class="mobile-logo-default" src="./assets/img/logo/logo-light.svg" alt="Ave HTML Template">
 													<img class="logo-default" src="./assets/img/logo/logo-light.svg" alt="Ave HTML Template">
 												</span>
 											</a>
-											<button type="button" class="navbar-toggle collapsed nav-trigger style-mobile" data-toggle="collapse"
-											data-target="#main-header-collapse" aria-expanded="false" data-changeclassnames='{ "html": "mobile-nav-activated overflow-hidden" }'>
+											<button type="button" class="navbar-toggle collapsed nav-trigger style-mobile" data-toggle="collapse" data-target="#main-header-collapse" aria-expanded="false" data-changeclassnames='{ "html": "mobile-nav-activated overflow-hidden" }'>
 												<span class="sr-only">Toggle navigation</span>
 												<span class="bars">
 													<span class="bar"></span>
@@ -63,9 +59,11 @@
 
 									<div class="col text-right">
 
-										<div class="collapse navbar-collapse" id="main-header-collapse" aria-expanded="false" role="tablist">
-											
-											<ul class="main-nav main-nav-hover-underline-1 nav align-items-lg-stretch justify-content-lg-end">
+										<div class="collapse navbar-collapse" id="main-header-collapse">
+									
+											<ul id="primary-nav" class="main-nav nav align-items-lg-stretch justify-content-lg-center" data-submenu-options='{ "toggleType":"fade", "handler":"mouse-in-out" }' data-localscroll="true">
+												
+												
 												<li>
 													<a href="nosotros.html">
 														<span class="link-icon"></span>
@@ -102,9 +100,11 @@
 														</span>
 													</a>
 												</li>
-											</ul>
+												
 											
-										</div><!-- /.collapse -->
+										</ul><!-- /#primary-nav  -->
+										
+									</div><!-- /#main-header-collapse -->
 
 										
 
@@ -126,9 +126,9 @@
 
 								
 							<h1
-										class="text-white font-weight-bold"
+										class="text-white font-weight-bold lh-13"
 										>
-										<span class="text-turquoise">Lorem Ipsum</span> user-focused <a class="super-link large" href="#">design</a>, thoughtfully crafted <a class="super-link large" href="#">brands</a>, and building custom <a class="super-link large" href="#">WordPress</a> themes
+										<span style="color: chocolate;"">Lorem Ipsum</span> user-focused <a class="super-link large pb-1" href="#">design</a>, thoughtfully crafted <a class="super-link large pb-1" href="#">brands</a>, and building custom <a class="super-link large pb-1" href="#">WordPress</a> themes
 									</h1>
 							
 							
@@ -158,25 +158,19 @@
 								<header class="fancy-title">
 
 									<h2
-										class="mt-2 mb-3 font-weight-normal lh-1"
+										class="mt-2 mb-3 font-weight-normal lh-1 text-primary"
 										data-fittext="true"
 										data-fittext-options='{ "compressor": 0.65, "maxFontSize": 72, "minFontSize": 46 }'
-									>
+									 >
 										<strong>somos</strong> una <strong>agencia creativa</strong> 
 									</h2>	
 
-									<div class="row d-flex flex-wrap align-items-stretch">
-
-					
-
-										<div class="lqd-column col-sm-10 col-xs-12">
-											<p class="h4 pt-10 text-secondary"
-											> formada por un talentoso y apasionado equipo comprometido con la creación de poderosas experiencias de Marketing que superan expectativas.</p>
-										</div><!-- /.col-sm-10 -->
-				
-									</div><!-- /.row -->
+									
 
 								</header><!-- /.fancy-title -->	
+
+								<p class="h4 pt-10 lh-2"
+										> <mark class="text-secondary" style="background-color:#3cd3d1">formada por un talentoso y apasionado equipo comprometido con la creación de poderosas experiencias de Marketing que superan expectativas.</mark></p>
 
 							</div><!-- /.lqd-column col-md-5 -->
 
@@ -230,29 +224,39 @@
 
 								<header class="fancy-title">
 
-									
-
 									<h2
-									class="mb-70 pull-to-left font-weight-normal lh-1"
+									class="mb-70 pull-to-left font-weight-normal lh-1 text-primary"
 									data-fittext="true"
 									data-fittext-options='{ "compressor": 0.65, "maxFontSize": 72, "minFontSize": 46 }'
 									
-								>
-									nuestro <strong>enfoque</strong> de <strong>colaboración</strong> y <strong>creatividad</strong>
-								</h2>	
-								
-								<p 
-								class="h4 pt-10 text-secondary"> 
-									nos ayuda a compartir con nuestros clientes un conjunto de comportamientos, sentimientos y actitudes que nos permiten alcanzar objetivos en común.
-								</p>
-									
+									>
+										nuestro <strong>enfoque</strong> de <strong>colaboración</strong> y <strong>creatividad</strong>
+									</h2>	
+						
 								</header><!-- /.fancy-title -->
 
-								<div class="lqd-column col-md-12">
+										<p 
+										class="h4 pt-10 text-secondary"> 
+										nos ayuda a compartir con nuestros clientes un conjunto de comportamientos, sentimientos y actitudes que nos permiten alcanzar objetivos en común.
+										</p>
+
+
+										
+
+										
+
+								<div class="lqd-column col-md-12 mt-30">
 									<div class="super-link-container">
-										<h4 class="liquid-filter-items-label text-uppercase font-weight-bold my-0 pr-md-7 mr-md-6 mb-30">
-											<a class="super-link" href="nosotros.html">¡más información!</a>
-										</h4>		
+										<a href="nosotros.html" class="btn btn-naked text-uppercase btn-bordered border-thin circle font-size-12 lh-1 font-weight-bold ltr-sp-05 mb-2">
+											
+											<span>
+												<span class="super-link btn-txt">¡más información!</span>
+												<span class="btn-icon">
+												<i class="fa fa-long-arrow-right" style="color: #EB9B00;"></i>
+												</span>
+											</span>
+											
+										</a>
 									</div> <!-- /.super-link-container -->
 								</div>
 								
@@ -269,45 +273,60 @@
 					<div class="divider__right"></div>
 				</div>
 
-				<section id="services" class="servicios-home vc_row pt-100 pb-100 bg-secondary">
+				<section id="services" class="servicios-home vc_row pt-100 pb-100 bg-primary">
 					<div class="container">
 						<div class="row d-flex flex-wrap align-items-center">
 							
-							<div class="lqd-column col-md-6 pr-md-7 mb-50" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1800","delay":"180","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":35,"rotateZ":1,"opacity":0},"animations":{"translateY":0,"rotateZ":0,"opacity":1}}'>
-								<div class="img-dborder">
-									<div class="img-sec liquid-img-container-inner border-radius-16 column-shadowed-1">
-										<figure>
-											<img class="border-radius-16" src="./assets/demo/misc/screens-1.jpg" alt="por definir">
-										</figure>
-									</div>						
-								</div>
-								
-							</div><!-- /.col-md-6 -->
-							<div class="lqd-column col-md-6 pr-md-7 mb-50">
+							<div class="lqd-column-md-12">
 
-								<div class="lqd-column-inner bg-fade-white-01 column-shadowed-1 border-radius-16 px-3 px-md-4 pt-40 pb-20">
+								<div class="lqd-column-inner">
 
-									<header class="fancy-title pr-md-2 pb-3">
-										<h2 class="mt-2 mb-3 font-weight-semibold lh-1">
+									<div class="lqd-column col-md-6 col-sm-6 col-xs-11 pr-md-7 mb-50" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1800","delay":"180","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":35,"rotateZ":1,"opacity":0},"animations":{"translateY":0,"rotateZ":0,"opacity":1}}'>
+										<div class="img-dborder">
+											<div class="img-sec liquid-img-container-inner border-radius-16 column-shadowed-1">
+												<figure>
+													<img class="border-radius-16" src="./assets/demo/misc/screens-1.jpg" alt="por definir">
+												</figure>
+											</div>						
+										</div>
 										
-											Desde el inicio de un proyecto nuevo, o bien consolidar el crecimiento de una marca... 
-										</h2>
-										<p class="h4 pt-10">
-										ofrecemos una gama de servicios enfocándonos en tres áreas fundamentales.</p>
-									</header>
-									
-									<div class="super-link-container">
-										<h4 class="liquid-filter-items-label text-uppercase font-weight-bold my-0 mb-30" style="text-align: right; position: relative;"
-										>
-											<a class="super-link text-san-marino text-hover-white" href="servicios.html">¡más información!</a>
-										</h4>		
-									</div> <!-- /.super-link-container -->
-									
+									</div><!-- /.col-md-6 -->
+									<div class="lqd-column col-md-6 col-sm-6 col-xs-11 pr-md-7 mb-50">
+		
+										<div class="lqd-column-inner bg-fade-white-01 column-shadowed-1 border-radius-16 px-3 px-md-4 pt-40 pb-20">
+		
+											<header class="fancy-title pr-md-2 pb-3">
+												<h2 class="mt-2 mb-3 font-weight-semibold lh-1 text-turquoise">
+												
+													Desde el inicio de un proyecto nuevo, o bien consolidar el crecimiento de una marca... 
+												</h2>
+												<p class="h4 pt-10 text-white">
+												ofrecemos una gama de servicios enfocándonos en tres áreas fundamentales.</p>
+											</header>
+											
+											<div class="super-link-container">
+												<a href="servicios.html" class="btn btn-naked text-uppercase btn-bordered border-thin font-size-12 lh-1 font-weight-bold ltr-sp-05 mb-2">
+													
+													<span>
+														<span class="super-link btn-txt">¡más información!</span>
+														<span class="btn-icon">
+														<i class="fa fa-long-arrow-right" style="color: #EB9B00;"></i>
+														</span>
+													</span>
+													
+												</a>
+											</div> <!-- /.super-link-container -->
+											
+		
+										</div><!-- /.lqd-column-inner -->
+		
+										
+									</div><!-- /.col-md-6 -->
+	
+	
+								</div>
 
-								</div><!-- /.lqd-column-inner -->
-
-								
-							</div><!-- /.col-md-6 -->
+							</div>
 							
 							
 							
@@ -320,219 +339,165 @@
 					<div class="divider__right"></div>
 				</div>
 
-				<section class="trabajos vc_row fullheight py-5" style="background-color: #ff798eff">
-					<div class="container">
+				
+
+				<section class="trabajos vc_row fullheight py-5 bg-gradient-primary-bt">
+					<div class="container mb-200">
 						<div class="row">
-
+		
 							<div class="lqd-column col-md-12">
-
-								<div class="carousel-container carousel-nav-circle carousel-nav-bordered carousel-nav-sm" data-filterable-carousel="true">
-
-									<div class="row">
+											
+								<div class="liquid-filter-items align-items-end justify-content-between mb-7" id="portfolio-carousel-1">
+					
+									<div class="liquid-filter-items-inner">
+					
+										<span class=" eyebrow liquid-filter-items-label size-xxl font-weight-bold my-0 text-white">algunos <br>proyectos</span>
+					
 										
-										<div class="lqd-column col-xs-12">
-											
-											<div class="liquid-filter-items align-items-end align-items-end justify-content-between mb-7" id="portfolio-carousel-1">
-								
-												<div class="liquid-filter-items-inner">
-								
-													<span class=" eyebrow liquid-filter-items-label size-xxl font-weight-bold my-0">algunos <br>proyectos</span>
-								
-													<ul class="filter-list text-uppercase ltr-sp-1 filter-list-inline size-sm font-weight-bold">
-														<li class="active" data-filter="*"><span class="text-white">Todos</span></li>
-														<li data-filter=".ecommerce"><span class="text-white" >Ecommerce</span></li>
-														<li data-filter=".digital"><span class="text-white">Digital Experience</span></li>
-														<li data-filter=".branding"><span class="text-white">Branding Strategy</span></li>
-													</ul>
-								
-												</div><!-- /.liquid-filter-items -->
-												
-											</div><!-- /.liquid-filter-items-inner -->
-											
-										</div><!-- /.col-xs-12 -->
-										
-										<div class="lqd-column col-xs-12">
-											
-											<div
-												class="carousel-items row pf-carousel-equal-height"
-												data-lqd-flickity='{ "equalHeightCells": true, "filters": "#portfolio-carousel-1", "prevNextButtons": true, "navArrow": 6, "fullwidthSide": true, "buttonsAppendTo": "#portfolio-carousel-1" }'
-												data-custom-animations="true"
-												data-ca-options='{"triggerHandler":"inview","animationTarget":".ld-pf-item","animateTargetsWhenVisible":"true","duration":"1000","delay":100,"easing":"easeOutQuint","initValues":{"translateX":36,"opacity":0},"animations":{"translateX":0,"opacity":1}}'
-											>
-												
-												<div class="carousel-item col-lg-8 col-md-6 col-xs-12 digital">
-													
-													<div class="ld-pf-item ld-pf-light ld-pf-light-alt pf-details-inside pf-details-visible pf-details-full pf-details-h-str pf-details-v-end title-size-48 pf-hover-shadow">
-														
-														<div class="ld-pf-inner">
-															
-															<div class="ld-pf-image">
-																<figure style="background-image: url(./assets/demo/portfolio/pf-19.jpg);">
-																	<img src="./assets/demo/portfolio/pf-19.jpg" alt="Portfolio Image">
-																</figure>
-															</div><!-- /.ld-pf-image -->
-								
-															<div class="ld-pf-bg bg-gradient-black-transparent-bt"></div><!-- /.ld-pf-bg -->
-															
-															<div class="ld-pf-details">
-																<div class="ld-pf-details-inner">
-																	<h3 class="ld-pf-title h4 font-weight-semibold">Lorem Ipsum dolor</h3>
-																	<p class="ld-pf-category ld-pf-category-lined">
-																		<span class="ld-pf-category-item font-style-italic" data-split-text="true" data-split-options='{ "type": "chars" }' data-custom-animations="true" data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": "all-childs", "duration": 170, "delay": 20, "offDuration": 100, "easing": "easeOutCirc", "initValues": { "translateY": 0, "opacity": 1 }, "animations": { "translateY": -10, "opacity": 0 } }'>Estrategia de Marca</span>
-																		<span class="read-more color-primary text-uppercase font-weight-bold ltr-sp-05 text-primary font-size-14 ml-2" data-split-text="true" data-split-options='{ "type": "chars" }' data-custom-animations="true" data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": "all-childs", "duration": 150, "delay": 20, "startDelay": 100, "offDuration": 100, "easing": "easeOutCirc", "initValues": { "translateY": 10, "opacity": 0 }, "animations": { "translateY": 0, "opacity": 1 } }'>Ver Más... </span>
-																	</p>
-																</div><!-- /.ld-pf-details-inner -->
-															</div><!-- /.ld-pf-details -->
-															
-															<a href="#" class="liquid-overlay-link"></a>
-															
-														</div><!-- /.ld-pf-inner -->
-														
-													</div><!-- /.ld-pf-item -->
-													
-												</div><!-- /.carousel-item col-lg-8 col-md-6 col-xs-12 -->
-												
-												<div class="carousel-item col-lg-4 col-md-6 col-xs-12 ecommerce">
-													
-													<div class="ld-pf-item ld-pf-light ld-pf-light-alt pf-details-inside pf-details-visible pf-details-full pf-details-h-str pf-details-v-end title-size-48 pf-hover-shadow">
-														
-														<div class="ld-pf-inner">
-															
-															<div class="ld-pf-image">
-																<figure style="background-image: url('./assets/demo/portfolio/pf-20.jpg');">
-																	<img src="./assets/demo/portfolio/pf-20.jpg" alt="Portfolio Image">
-																</figure>
-															</div><!-- /.ld-pf-image -->
-								
-															<div class="ld-pf-bg bg-gradient-black-transparent-bt"></div><!-- /.ld-pf-bg -->
-															
-															<div class="ld-pf-details">
-																<div class="ld-pf-details-inner">
-																	<h3 class="ld-pf-title h4 font-weight-semibold">L.I - Lorem Ipsum Dolor your eyes</h3>
-																	<p class="ld-pf-category ld-pf-category-lined">
-																		<span class="ld-pf-category-item font-style-italic" data-split-text="true" data-split-options='{ "type": "chars" }' data-custom-animations="true" data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": "all-childs", "duration": 170, "delay": 20, "offDuration": 100, "easing": "easeOutCirc", "initValues": { "translateY": 0, "opacity": 1 }, "animations": { "translateY": -10, "opacity": 0 } }'>Lorem Ipsum</span>
-																		<span class="read-more color-primary text-uppercase font-weight-bold ltr-sp-05 text-primary font-size-14 ml-2" data-split-text="true" data-split-options='{ "type": "chars" }' data-custom-animations="true" data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": "all-childs", "duration": 150, "delay": 20, "startDelay": 100, "offDuration": 100, "easing": "easeOutCirc", "initValues": { "translateY": 10, "opacity": 0 }, "animations": { "translateY": 0, "opacity": 1 } }'>Ver Más...</span>
-																	</p>
-																</div><!-- /.ld-pf-details-inner -->
-															</div><!-- /.ld-pf-details -->
-															
-															<a href="#" class="liquid-overlay-link"></a>
-															
-														</div><!-- /.ld-pf-inner -->
-														
-													</div><!-- /.ld-pf-item -->
-													
-												</div><!-- /.carousel-item col-lg-4 col-md-6 col-xs-12 -->
-												
-												<div class="carousel-item col-lg-6 col-md-6 col-xs-12 branding">
-													
-													<div class="ld-pf-item ld-pf-light ld-pf-light-alt pf-details-inside pf-details-visible pf-details-full pf-details-h-str pf-details-v-end title-size-48 pf-hover-shadow">
-														
-														<div class="ld-pf-inner">
-															
-															<div class="ld-pf-image">
-																<figure style="background-image: url('./assets/demo/portfolio/pf-21.jpg');">
-																	<img src="./assets/demo/portfolio/pf-21.jpg" alt="Portfolio Image">
-																</figure>
-															</div><!-- /.ld-pf-image -->
-								
-															<div class="ld-pf-bg bg-gradient-black-transparent-bt"></div><!-- /.ld-pf-bg -->
-															
-															<div class="ld-pf-details">
-																<div class="ld-pf-details-inner">
-																	<h3 class="ld-pf-title h4 font-weight-semibold">H.A - Bring green to your eyes</h3>
-																	<p class="ld-pf-category ld-pf-category-lined">
-																		<span class="ld-pf-category-item font-style-italic" data-split-text="true" data-split-options='{ "type": "chars" }' data-custom-animations="true" data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": "all-childs", "duration": 170, "delay": 20, "offDuration": 100, "easing": "easeOutCirc", "initValues": { "translateY": 0, "opacity": 1 }, "animations": { "translateY": -10, "opacity": 0 } }'>Brand strategy</span>
-																		<span class="read-more color-primary text-uppercase font-weight-bold ltr-sp-05 text-primary font-size-14 ml-2" data-split-text="true" data-split-options='{ "type": "chars" }' data-custom-animations="true" data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": "all-childs", "duration": 150, "delay": 20, "startDelay": 100, "offDuration": 100, "easing": "easeOutCirc", "initValues": { "translateY": 10, "opacity": 0 }, "animations": { "translateY": 0, "opacity": 1 } }'>Ver Más...</span>
-																	</p>
-																</div><!-- /.ld-pf-details-inner -->
-															</div><!-- /.ld-pf-details -->
-															
-															<a href="#" class="liquid-overlay-link"></a>
-															
-														</div><!-- /.ld-pf-inner -->
-														
-													</div><!-- /.ld-pf-item -->
-													
-												</div><!-- /.carousel-item col-lg-4 col-md-6 col-xs-12 -->
-												
-												<div class="carousel-item col-lg-5 col-md-6 col-xs-12 branding">
-													
-													<div class="ld-pf-item ld-pf-light ld-pf-light-alt pf-details-inside pf-details-visible pf-details-full pf-details-h-str pf-details-v-end title-size-48 pf-hover-shadow">
-														
-														<div class="ld-pf-inner">
-															
-															<div class="ld-pf-image">
-																<figure style="background-image: url('./assets/demo/portfolio/pf-19.jpg');">
-																	<img src="./assets/demo/portfolio/pf-21.jpg" alt="Portfolio Image">
-																</figure>
-															</div><!-- /.ld-pf-image -->
-								
-															<div class="ld-pf-bg bg-gradient-black-transparent-bt"></div><!-- /.ld-pf-bg -->
-															
-															<div class="ld-pf-details">
-																<div class="ld-pf-details-inner">
-																	<h3 class="ld-pf-title h4 font-weight-semibold">Kolor lovers rebranding</h3>
-																	<p class="ld-pf-category ld-pf-category-lined">
-																		<span class="ld-pf-category-item font-style-italic" data-split-text="true" data-split-options='{ "type": "chars" }' data-custom-animations="true" data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": "all-childs", "duration": 170, "delay": 20, "offDuration": 100, "easing": "easeOutCirc", "initValues": { "translateY": 0, "opacity": 1 }, "animations": { "translateY": -10, "opacity": 0 } }'>Brand strategy</span>
-																		<span class="read-more color-primary text-uppercase font-weight-bold ltr-sp-05 text-primary font-size-14 ml-2" data-split-text="true" data-split-options='{ "type": "chars" }' data-custom-animations="true" data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": "all-childs", "duration": 150, "delay": 20, "startDelay": 100, "offDuration": 100, "easing": "easeOutCirc", "initValues": { "translateY": 10, "opacity": 0 }, "animations": { "translateY": 0, "opacity": 1 } }'>Ver Más...</span>
-																	</p>
-																</div><!-- /.ld-pf-details-inner -->
-															</div><!-- /.ld-pf-details -->
-															
-															<a href="#" class="liquid-overlay-link"></a>
-															
-														</div><!-- /.ld-pf-inner -->
-														
-													</div><!-- /.ld-pf-item -->
-													
-												</div><!-- /.carousel-item col-lg-8 col-md-6 col-xs-12 -->
-												
-												<div class="carousel-item col-lg-7 col-md-6 col-xs-12 ecommerce">
-													
-													<div class="ld-pf-item ld-pf-light ld-pf-light-alt pf-details-inside pf-details-visible pf-details-full pf-details-h-str pf-details-v-end title-size-48 pf-hover-shadow">
-														
-														<div class="ld-pf-inner">
-															
-															<div class="ld-pf-image">
-																<figure style="background-image: url(./assets/demo/portfolio/pf-22.jpg);">
-																	<img src="./assets/demo/portfolio/pf-22.jpg" alt="Portfolio Image">
-																</figure>
-															</div><!-- /.ld-pf-image -->
-								
-															<div class="ld-pf-bg bg-gradient-black-transparent-bt"></div><!-- /.ld-pf-bg -->
-															
-															<div class="ld-pf-details">
-																<div class="ld-pf-details-inner">
-																	<h3 class="ld-pf-title h4 font-weight-semibold">H.A - Bring green to your eyes</h3>
-																	<p class="ld-pf-category ld-pf-category-lined">
-																		<span class="ld-pf-category-item font-style-italic" data-split-text="true" data-split-options='{ "type": "chars" }' data-custom-animations="true" data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": "all-childs", "duration": 170, "delay": 20, "offDuration": 100, "easing": "easeOutCirc", "initValues": { "translateY": 0, "opacity": 1 }, "animations": { "translateY": -10, "opacity": 0 } }'>Brand strategy</span>
-																		<span class="read-more color-primary text-uppercase font-weight-bold ltr-sp-05 text-primary font-size-14 ml-2" data-split-text="true" data-split-options='{ "type": "chars" }' data-custom-animations="true" data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": "all-childs", "duration": 150, "delay": 20, "startDelay": 100, "offDuration": 100, "easing": "easeOutCirc", "initValues": { "translateY": 10, "opacity": 0 }, "animations": { "translateY": 0, "opacity": 1 } }'>Ver Más...</span>
-																	</p>
-																</div><!-- /.ld-pf-details-inner -->
-															</div><!-- /.ld-pf-details -->
-															
-															<a href="#" class="liquid-overlay-link"></a>
-															
-														</div><!-- /.ld-pf-inner -->
-														
-													</div><!-- /.ld-pf-item -->
-													
-												</div><!-- /.carousel-item col-lg-4 col-md-6 col-xs-12 -->
-												
-											</div><!-- /.carousel-items -->
-											
-										</div><!-- /.col-xs-12 -->
-										
-									</div><!-- /.row -->
+					
+									</div><!-- /.liquid-filter-items -->
 									
-								</div><!-- /.carousel-container -->
-
+								</div><!-- /.liquid-filter-items-inner -->
+								
+							</div><!-- /.col-s-12 -->
+		
+							<div class="lqd-column col-md-12">
+		
+								<div class="liquid-portfolio-list">
+		
+									<div
+										id="pf-grid-1"
+										class="rowd liquid-portfolio-list-row pf-grid-1"
+										data-liquid-masonry="true"
+										data-custom-animations="true"
+										data-ca-options='{"triggerHandler":"inview","animationTarget":".ld-pf-item", "animateTargetsWhenVisible": true, "duration":1000,"delay":100,"easing":"easeOutQuint","initValues":{"scale":0.75, "opacity": 0},"animations":{"scale":1, "opacity": 1	}}'
+									>
+		
+										<div class="lqd-column col-md-4 col-sm-6 col-xs-12 masonry-item">
+		
+											<div class="ld-pf-item ld-pf-dark title-size-18 pf-details-inside overflow-visible pf-details-full pf-details-h-mid pf-details-v-end pf-btns-mid pf-hover-animate-btn pf-hover-shadow pf-hover-shadow-alt-2 text-center">
+		
+												<div class="ld-pf-inner pos-rel">
+		
+													<div class="ld-pf-image border-radius-16">
+														<figure data-responsive-bg="true">
+															<img src="./assets/demo/portfolio/pf-3.jpg" alt="Portfolio">
+														</figure>
+													</div><!-- /.ld-pf-image -->
+		
+													<div class="ld-pf-details py-4" data-custom-animations="true" data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".split-inner", "startDelay": 0, "duration": 650, "delay": 200, "initValues": { "translateY": "150%" }, "animations": { "translateY": "0", "rotateX": 0 } }'>
+		
+															<div class="ld-pf-bg bg-fade-dark-05 border-radius-16"></div><!-- /.ld-pf-bg -->
+									
+															<div class="ld-pf-details-inner" data-custom-animations="true" data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".ld-pf-btn", "startDelay": 0, "duration": 650, "delay": 100, "initValues": { "scale": "0" }, "animations": { "scale": "1" } }'>
+									
+																<div class="ld-pf-btns">
+																	
+																	<a href="#" class="ld-pf-btn ra circle ld-pf-btn-solid ml-2">
+																		<span><i class="icon-md-link"></i></span>
+																	</a>
+																</div><!-- /.ld-pf-btns -->
+									
+															</div><!-- /.ld-pf-details-inner -->
+									
+														</div><!-- /.ld-pf-details -->
+		
+												</div><!-- /.ld-pf-inner pos-rel -->
+		
+												<h3 class="ld-pf-title h4 font-weight-bold text-white">Website - Ocho Reales</h3>
+		
+											</div><!-- /.ld-pf-item -->
+		
+										</div><!-- /.col-md-4 col-sm-6 col-xs-12 masonry-item -->
+		
+										<div class="lqd-column col-md-4 col-sm-6 col-xs-12 masonry-item">
+		
+											<div class="ld-pf-item ld-pf-dark title-size-18 pf-details-inside overflow-visible pf-details-full pf-details-h-mid pf-details-v-end pf-btns-mid pf-hover-animate-btn pf-hover-shadow pf-hover-shadow-alt-2 text-center">
+		
+												<div class="ld-pf-inner pos-rel">
+		
+													<div class="ld-pf-image border-radius-16">
+														<figure data-responsive-bg="true">
+															<img src="./assets/demo/portfolio/pf-3.jpg" alt="Portfolio">
+														</figure>
+													</div><!-- /.ld-pf-image -->
+		
+													<div class="ld-pf-details py-4" data-custom-animations="true" data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".split-inner", "startDelay": 0, "duration": 650, "delay": 200, "initValues": { "translateY": "150%" }, "animations": { "translateY": "0", "rotateX": 0 } }'>
+		
+															<div class="ld-pf-bg bg-fade-dark-05 border-radius-16"></div><!-- /.ld-pf-bg -->
+									
+															<div class="ld-pf-details-inner" data-custom-animations="true" data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".ld-pf-btn", "startDelay": 0, "duration": 650, "delay": 100, "initValues": { "scale": "0" }, "animations": { "scale": "1" } }'>
+									
+																<div class="ld-pf-btns">
+																	
+																	<a href="#" class="ld-pf-btn ra circle ld-pf-btn-solid ml-2">
+																		<span><i class="icon-md-link"></i></span>
+																	</a>
+																</div><!-- /.ld-pf-btns -->
+									
+															</div><!-- /.ld-pf-details-inner -->
+									
+														</div><!-- /.ld-pf-details -->
+		
+												</div><!-- /.ld-pf-inner pos-rel -->
+		
+												<h3 class="ld-pf-title h4 font-weight-bold text-white">Website - Agua de Piedra</h3>
+		
+											</div><!-- /.ld-pf-item -->
+		
+										</div><!-- /.col-md-4 col-sm-6 col-xs-12 masonry-item -->
+		
+										<div class="lqd-column col-md-4 col-sm-6 col-xs-12 masonry-item">
+		
+											<div class="ld-pf-item ld-pf-dark title-size-18 pf-details-inside overflow-visible pf-details-full pf-details-h-mid pf-details-v-end pf-btns-mid pf-hover-animate-btn pf-hover-shadow pf-hover-shadow-alt-2 text-center">
+		
+												<div class="ld-pf-inner pos-rel">
+		
+													<div class="ld-pf-image border-radius-16">
+														<figure data-responsive-bg="true">
+															<img src="./assets/demo/portfolio/pf-3.jpg" alt="Portfolio">
+														</figure>
+													</div><!-- /.ld-pf-image -->
+		
+													<div class="ld-pf-details py-4" data-custom-animations="true" data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".split-inner", "startDelay": 0, "duration": 650, "delay": 200, "initValues": { "translateY": "150%" }, "animations": { "translateY": "0", "rotateX": 0 } }'>
+		
+															<div class="ld-pf-bg bg-fade-dark-05 border-radius-16"></div><!-- /.ld-pf-bg -->
+									
+															<div class="ld-pf-details-inner" data-custom-animations="true" data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".ld-pf-btn", "startDelay": 0, "duration": 650, "delay": 100, "initValues": { "scale": "0" }, "animations": { "scale": "1" } }'>
+									
+																<div class="ld-pf-btns">
+																	
+																	<a href="#" class="ld-pf-btn ra circle ld-pf-btn-solid ml-2">
+																		<span><i class="icon-md-link"></i></span>
+																	</a>
+																</div><!-- /.ld-pf-btns -->
+									
+															</div><!-- /.ld-pf-details-inner -->
+									
+														</div><!-- /.ld-pf-details -->
+		
+												</div><!-- /.ld-pf-inner pos-rel -->
+		
+												<h3 class="ld-pf-title h4 font-weight-bold text-white">Blog - Mexiterraneum</h3>
+		
+											</div><!-- /.ld-pf-item -->
+		
+										</div><!-- /.col-md-4 col-sm-6 col-xs-12 masonry-item -->
+		
+										
+		
+										
+		
+										
+		
+									</div><!-- /.rowd liquid-portfolio-list-row -->
+		
+								</div><!-- /.liquid-portfolio-list -->
+		
 							</div><!-- /.col-md-12 -->
-
+		
 						</div><!-- /.row -->
 					</div><!-- /.container -->
-
 				</section>
 
 				
@@ -560,7 +525,7 @@
 
 									<div class="liquid-blog-grid row">
 
-										<div class="lqd-column col-md-4">
+										<div class="lqd-column col-md-4 col-sm-6 col-xs-12">
 											<article class="liquid-lp">
 												<figure class="liquid-lp-media rounded" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1800","delay":"180","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":35,"rotateZ":1,"opacity":0},"animations":{"translateY":0,"rotateZ":0,"opacity":1}}'>
 													<a href="#">
@@ -576,7 +541,7 @@
 											</article>
 										</div><!-- /.col-md-4 -->
 
-										<div class="lqd-column col-md-4">
+										<div class="lqd-column col-md-4 col-sm-6 col-xs-12">
 											<article class="liquid-lp">
 												<figure class="liquid-lp-media rounded" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1800","delay":"180","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":35,"rotateZ":1,"opacity":0},"animations":{"translateY":0,"rotateZ":0,"opacity":1}}'>
 													<a href="#">
@@ -592,7 +557,7 @@
 											</article>
 										</div><!-- /.col-md-4 -->
 
-										<div class="lqd-column col-md-4">
+										<div class="lqd-column col-md-4 col-sm-6 col-xs-12">
 											<article class="liquid-lp category-news category-rounded">
 												<figure class="liquid-lp-media rounded" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1800","delay":"180","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":35,"rotateZ":1,"opacity":0},"animations":{"translateY":0,"rotateZ":0,"opacity":1}}'>
 													<a href="#">

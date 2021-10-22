@@ -26,7 +26,7 @@
 
 	</head>
 
-	<body data-mobile-nav-trigger-alignment="right" data-mobile-nav-align="left" data-mobile-nav-style="minimal" data-mobile-nav-shceme="gray" data-mobile-header-scheme="gray" data-mobile-nav-breakpoint="1199">
+	<body data-mobile-nav-trigger-alignment="left" data-mobile-nav-align="left" data-mobile-nav-style="minimal" data-mobile-nav-shceme="gray" data-mobile-header-scheme="primary" data-mobile-nav-breakpoint="1199">
 
 		<div id="wrap">
 
@@ -38,19 +38,15 @@
 						<div class="mainbar">
 							<div class="row mainbar-row align-items-lg-stretch px-4">
 
-								<div class="col">
+								<div class="col pr-5">
 									<div class="navbar-header">
 										<a class="navbar-brand" href="index.html" rel="home">
 											<span class="navbar-brand-inner">
-												<img class="logo-dark" src="./assets/img/logo/logo-1.svg" alt="Ave HTML Template">
-												<img class="logo-light" src="./assets/img/logo/logo-light.svg" alt="Ave HTML Template">
-												<img class="logo-sticky" src="./assets/img/logo/logo-1.svg" alt="Ave HTML Template">
-												<img class="mobile-logo-default" src="./assets/img/logo/logo-1.svg" alt="Ave HTML Template">
+												<img class="mobile-logo-default" src="./assets/img/logo/logo-light.svg" alt="Ave HTML Template">
 												<img class="logo-default" src="./assets/img/logo/logo-light.svg" alt="Ave HTML Template">
 											</span>
 										</a>
-										<button type="button" class="navbar-toggle collapsed nav-trigger style-mobile" data-toggle="collapse"
-										 data-target="#main-header-collapse" aria-expanded="false" data-changeclassnames='{ "html": "mobile-nav-activated overflow-hidden" }'>
+										<button type="button" class="navbar-toggle collapsed nav-trigger style-mobile" data-toggle="collapse" data-target="#main-header-collapse" aria-expanded="false" data-changeclassnames='{ "html": "mobile-nav-activated overflow-hidden" }'>
 											<span class="sr-only">Toggle navigation</span>
 											<span class="bars">
 												<span class="bar"></span>
@@ -63,9 +59,11 @@
 
 								<div class="col text-right">
 
-									<div class="collapse navbar-collapse" id="main-header-collapse" aria-expanded="false" role="tablist">
-										
-										<ul class="main-nav main-nav-hover-underline-1 nav align-items-lg-stretch justify-content-lg-end">
+									<div class="collapse navbar-collapse" id="main-header-collapse">
+								
+										<ul id="primary-nav" class="main-nav nav align-items-lg-stretch justify-content-lg-center" data-submenu-options='{ "toggleType":"fade", "handler":"mouse-in-out" }' data-localscroll="true">
+											
+											
 											<li>
 												<a href="nosotros.html">
 													<span class="link-icon"></span>
@@ -102,9 +100,11 @@
 													</span>
 												</a>
 											</li>
-										</ul>
+											
 										
-									</div><!-- /.collapse -->
+									</ul><!-- /#primary-nav  -->
+									
+								</div><!-- /#main-header-collapse -->
 
 									
 
@@ -119,7 +119,7 @@
 	
 	<main id="content" class="content">
 		
-		<section class="nosotros-hero vc_row pt-120 pb-90 bg-cover fullheight py-5 d-flex flex-wrap align-items-center" style="background-color: #4762ff; background-image: url(./assets/img/svgs/nosotros-hero.svg);" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1200","delay":"150","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":31,"translateZ":-108,"opacity":0},"animations":{"translateY":0,"translateZ":0,"opacity":1}}'>
+		<section class="nosotros-hero vc_row pt-120 pb-90 bg-cover fullheight py-5 d-flex flex-wrap align-items-center" style="background-color: #030314; background-image: url(./assets/img/svgs/nosotros-hero.svg);" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1200","delay":"150","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":31,"translateZ":-108,"opacity":0},"animations":{"translateY":0,"translateZ":0,"opacity":1}}'>
 			
 			<div class="container">
 				<div class="row d-flex flex-wrap">
@@ -317,12 +317,12 @@
 	
 
 
-		<div class="divider divider--primary">
-			<div class="divider__left2"></div>
-			<div class="divider__right2"></div>
+		<div class="divider divider--purple">
+			<div class="divider__left"></div>
+			<div class="divider__right"></div>
 		</div>
 
-		<section class="equipo vc_row pt-50 pb-50 bg-gigas fullheight py-5">
+		<section class="equipo vc_row pt-50 pb-50 fullheight py-5 bg-gradient-primary-bt">
 
 			<div class="container">
 				<div class="row" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":".lqd-column","duration":"1200","delay":"120","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":30,"opacity":0},"animations":{"translateY":0,"opacity":1}}'>
@@ -336,6 +336,7 @@
 					</div><!-- /.lqd-column col-md-8 col-md-offset-2 -->
 				</div><!-- /.row -->
 				<div class="row mt-80" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1800","delay":"180","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":35,"rotateZ":1,"opacity":0},"animations":{"translateY":0,"rotateZ":0,"opacity":1}}'>
+					
 					<div class="lqd-column col-md-4">
 
 						<div class="iconbox iconbox-semiround iconbox-shadow iconbox-xl iconbox-filled iconbox-filled bg-fade-dark-025 border-radius-16 pt-65 pb-65">
@@ -346,7 +347,7 @@
 							</div><!-- /.iconbox-icon-wrap -->
 							<div class="contents">
 								<h3 class="text-white text-uppercase font-size-21 mb-25">Marketing</h3>
-								<p class="text-fade-white-06">Bitcoin is designed around the idea cryptography.</p>
+								
 							</div><!-- /.contents -->
 						</div>
 						
@@ -364,7 +365,7 @@
 							</div><!-- /.iconbox-icon-wrap -->
 							<div class="contents">
 								<h3 class="text-white text-uppercase font-size-21 mb-25">Diseño</h3>
-								<p class="text-fade-white-06">Bitcoin is designed around the idea cryptography.</p>
+								
 							</div><!-- /.contents -->
 						</div>
 						
@@ -379,12 +380,27 @@
 							</div><!-- /.iconbox-icon-wrap -->
 							<div class="contents">
 								<h3 class="text-white text-uppercase font-size-21 mb-25">Programación</h3>
-								<p class="text-fade-white-06">Bitcoin is designed around the idea cryptography.</p>
+								
 							</div><!-- /.contents -->
 						</div>
 						
 						
 
+					</div><!-- /.col-md-4 -->
+
+					<div class="lqd-column col-md-4">
+						<div class="iconbox iconbox-semiround iconbox-shadow iconbox-xl iconbox-filled iconbox-filled bg-fade-dark-025 border-radius-16 pt-65 pb-65">
+							<div class="iconbox-icon-wrap">
+								<span class="iconbox-icon-container text-white">
+									<i class="icon-et-documents"></i>
+								</span>
+							</div><!-- /.iconbox-icon-wrap -->
+							<div class="contents">
+								<h3 class="text-white text-uppercase font-size-21 mb-25">Copywritting</h3>
+								
+							</div><!-- /.contents -->
+						</div>
+			
 					</div><!-- /.col-md-4 -->
 
 					<div class="lqd-column col-md-4">
@@ -397,7 +413,7 @@
 							</div><!-- /.iconbox-icon-wrap -->
 							<div class="contents">
 								<h3 class="text-white text-uppercase font-size-21 mb-25">Social Media</h3>
-								<p class="text-fade-white-06">Bitcoin is designed around the idea cryptography.</p>
+								
 							</div><!-- /.contents -->
 						</div>
 					   
@@ -405,20 +421,7 @@
 
 					</div><!-- /.col-md-4 -->
 				
-					<div class="lqd-column col-md-4">
-						<div class="iconbox iconbox-semiround iconbox-shadow iconbox-xl iconbox-filled iconbox-filled bg-fade-dark-025 border-radius-16 pt-65 pb-65">
-							<div class="iconbox-icon-wrap">
-								<span class="iconbox-icon-container text-white">
-									<i class="icon-et-documents"></i>
-								</span>
-							</div><!-- /.iconbox-icon-wrap -->
-							<div class="contents">
-								<h3 class="text-white text-uppercase font-size-21 mb-25">Copywritting</h3>
-								<p class="text-fade-white-06">Bitcoin is designed around the idea cryptography.</p>
-							</div><!-- /.contents -->
-						</div>
-			
-					</div><!-- /.col-md-4 -->
+					
 
 					<div class="lqd-column col-md-4">
 
@@ -430,7 +433,7 @@
 							</div><!-- /.iconbox-icon-wrap -->
 							<div class="contents">
 								<h3 class="text-white text-uppercase font-size-21 mb-25">Fotografía</h3>
-								<p class="text-fade-white-06">Bitcoin is designed around the idea cryptography.</p>
+								
 							</div><!-- /.contents -->
 						</div>
 
