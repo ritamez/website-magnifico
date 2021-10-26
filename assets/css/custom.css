@@ -17,7 +17,7 @@
 	--color-gradient-stop: #1d1d2c;
 	--color-gradient-start-secondary: #1d1d2c;
 	--color-gradient-stop-secondary: #030314;
-	--color-gradient-start-tertiary: #EB9B00;
+	--color-gradient-start-tertiary: #  ;
 	--color-gradient-stop-tertiary: #BB3E03;
     --color-link: #0A9396; 
     --color-link-hover: #3cd3d1;
@@ -239,4 +239,19 @@ h2 .super-link {
     to {
         background-position: 500px bottom;
     }
+}
+
+#estrella {
+  animation: estrellita 7s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes estrellita {
+  from{
+      transform: rotateZ(0deg);
+  }
+  to{
+      transform: rotateZ(360deg);
+  }
 }
